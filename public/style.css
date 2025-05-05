@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 header {
-  background-color: darkblue;
+  border-bottom: 0.1rem black solid;
 }
 footer {
-  background-color: darkgray;
+  border-top: 0.1rem black solid;
 }
