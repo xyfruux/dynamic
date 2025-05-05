@@ -11,6 +11,10 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.use((req, res) => {
+  res.status(404).send("Page Not Found");
+});
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
