@@ -22,3 +22,8 @@ header > ul > li {
 footer {
   border-top: 0.125rem black solid;
 }
+
+.logo {
+  text-decoration: none;
+  color: black;
+}
