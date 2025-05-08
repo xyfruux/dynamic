@@ -33,6 +33,20 @@ header > ul > li {
   margin-left: 1rem;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+}
+footer > ul {
+  display: flex;
+}
+footer > ul > li {
+  margin: 0 2rem;
+  list-style: none;
+}
+
 .logo {
   text-decoration: none;
 }
