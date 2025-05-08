@@ -4,7 +4,9 @@ const app = express();
 const port = 3000;
 
 const usersRouter = require("./routes/users.js");
+const infoRouter = require("./routes/info.js");
 app.use("/users", usersRouter);
+app.use("/info", infoRouter);
 
 app.use(express.static("public"));
 app.use(expressLayouts);
