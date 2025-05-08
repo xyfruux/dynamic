@@ -1,4 +1,5 @@
 const express = require("express");
+// Create express layouts variable!
 const router = express.Router();
 
 router.get("/id/:id", (req, res) => {
