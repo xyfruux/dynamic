@@ -5,7 +5,7 @@ const router = express.Router();
 router.use(expressLayouts);
 
 router.get("/about", (req, res) => {
-  res.render("test", { title: "About Us", console: "About Us" });
+  res.render("about", { title: "About Us" });
 });
 router.get("/contact", (req, res) => {
   res.render("test", { title: "Contact Us", console: "Contact Us" });
